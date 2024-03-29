@@ -15,6 +15,9 @@ http://naver.me/57rzy3wd
 ### Microservices Patterns With examples in Java(GitHub)
 
       https://github.com/microservices-patterns/ftgo-application
+### docker-compose
+
+      sudo apt-get install docker-compose
 
 ### .profile
       #export DOCKER_HOST=localhost:2375
