@@ -1,5 +1,7 @@
 ## KUT-MSA-Design-Pattern-1
 
+http://naver.me/57rzy3wd
+
 ### Development environment settings
 - JDK 17
 - Gradle & Maven
