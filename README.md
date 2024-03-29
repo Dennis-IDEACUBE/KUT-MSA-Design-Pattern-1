@@ -5,6 +5,11 @@
 - Gradle & Maven
 - STS + STS Plug-ins & Visual Studio Code + Plug-ins
 
+| Server Role             | Server Hostname           | Specs                                             | IP Address      | Host Port |
+| ----------------------- | ------------------------- | ------------------------------------------------- | --------------- | --------- |
+| Windows Clinet          | windev                    | 2 vCPU, 4 GB RAM, 100GB Disk EACH                 | 192.168.15.11   |           |
+| Jenkins & Docker        | dockersvr                 | 4 vCPU, 8 GB RAM(or Higher), 100B Disk EACH       | 192.168.15.101  | 22101     |
+
 ### Microservices Patterns With examples in Java(GitHub)
 
       https://github.com/microservices-patterns/ftgo-application
