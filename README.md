@@ -15,6 +15,7 @@ http://naver.me/57rzy3wd
 ### Microservices Patterns With examples in Java(GitHub)
 
       https://github.com/microservices-patterns/ftgo-application
+      
 ### docker-compose
 
       sudo apt-get install docker-compose
@@ -36,3 +37,4 @@ http://naver.me/57rzy3wd
       HEALTHCHECK --interval=10s --retries=10 --timeout=3s CMD [[ -f /tables-created ]]
       
       CMD ./wait-for-dynamodblocal.sh && ./create-dynamodb-tables.sh
+
