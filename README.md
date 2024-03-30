@@ -38,3 +38,28 @@ http://naver.me/57rzy3wd
       
       CMD ./wait-for-dynamodblocal.sh && ./create-dynamodb-tables.sh
 
+### git config
+
+      git config user.name "Dennis"
+      git config user.email "itgenius1004@gmail.com"
+
+      git config user.name
+      git config.user.email
+
+### uninstall openjdk
+
+      Remove OpenJDK,
+      execute the following command on terminal:
+      $ sudo apt-get remove openjdk*
+      
+      Remove OpenJDK along with dependencies,
+      execute the following command on terminal:
+      $ sudo apt-get remove --auto-remove openjdk*
+      
+      Remove OpenJDK and it’s configuration files,
+      xecute the following command on terminal:
+      $ sudo apt-get purge openjdk*
+      
+      Remove OpenJDK along with dependencies and it’s configuration files, execute the following command on terminal:
+      $ sudo apt-get purge --auto-remove openjdk*
+      
