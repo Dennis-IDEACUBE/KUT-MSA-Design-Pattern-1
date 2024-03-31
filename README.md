@@ -46,6 +46,10 @@ http://naver.me/57rzy3wd
       git config user.name
       git config.user.email
 
+### install openjdk
+
+      sudo apt-get install openjdk-17-jdk
+
 ### uninstall openjdk
 
       Remove OpenJDK,
