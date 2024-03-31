@@ -67,3 +67,26 @@ http://naver.me/57rzy3wd
       Remove OpenJDK along with dependencies and it’s configuration files, execute the following command on terminal:
       $ sudo apt-get purge --auto-remove openjdk*
       
+### uninstall maven
+
+      sudo apt-get install maven
+
+### docker-compose.yml
+
+      version: '3'
+      services:
+        mysql:
+          image: mysql:8.0
+          container_name: mysqldb
+          ports:
+            - 3306:3306
+          environment:
+            - MYSQL_ROOT_PASSWORD=1234
+            - MYSQL_DATABASE=user_db
+          networks:
+            - net
+          
+      networks:
+        net:
+        
+      -- docker-compose up -d
